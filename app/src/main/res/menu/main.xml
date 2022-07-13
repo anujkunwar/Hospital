@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/Ambulance"
+                android:title="Ambulance"
+                android:icon="@drawable/round" />
+            <item
+                android:id="@+id/BloodBank"
+                android:title="Blood Bank"
+                android:icon="@drawable/round" />
+            <item
+                android:id="@+id/DoctorAppointment"
+                android:title="Doctor Appointment"
+                android:icon="@drawable/round" />
+            <item
+                android:id="@+id/Pharmacy"
+                android:title="Pharmacy"
+                android:icon="@drawable/round" />
+        </menu>>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/Profile"
+                android:title="Profile"
+                android:icon="@drawable/round" />
+            <item
+                android:id="@+id/AboutUs"
+                android:title="About Us"
+                android:icon="@drawable/round" />
+            <item
+                android:id="@+id/LogOut"
+                android:title="Log Out"
+                android:icon="@drawable/round" />
+
+
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/dname3"
+            android:layout_width="188dp"
+            android:layout_height="212dp"
+            android:layout_weight="1"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/dtype3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/dname3"
+            android:layout_toRightOf="@id/dname3"
+            android:textColor="#333"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/dphone3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="50dp"
+            android:layout_toEndOf="@id/dname3"
+            android:layout_toRightOf="@id/dname3"
+            android:textColor="#333"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/daddress3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="120dp"
+            android:layout_toEndOf="@id/dname3"
+            android:layout_toRightOf="@id/dname3"
+            android:textColor="#333"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/demail3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="85dp"
+            android:layout_toEndOf="@id/dname3"
+            android:layout_toRightOf="@id/dname3"
+            android:textColor="#333"
+            android:textSize="22dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
